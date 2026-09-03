@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VRide — Zásady ochrany osobních údajů</title>
+<style>
+  :root { --ink:#14171C; --brand-dark:#E14957; --muted:#6B7280; --border:#EEF0F2; --bg:#FCFBFA; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin:0; background:var(--bg); color:var(--ink); line-height:1.65; }
+  .wrap { max-width:680px; margin:0 auto; padding:56px 24px 90px; }
+  .top { display:flex; align-items:center; justify-content:space-between; margin-bottom:6px; }
+  .brand { display:flex; align-items:center; gap:12px; }
+  .brand svg { width:34px; height:34px; }
+  .brand span { font-size:22px; font-weight:800; letter-spacing:-0.5px; }
+  .brand span b { color:var(--brand-dark); font-weight:800; }
+  .lang a { color:var(--brand-dark); font-size:14px; font-weight:600; text-decoration:none; }
+  h1 { font-size:26px; margin:28px 0 4px; letter-spacing:-0.3px; }
+  .updated { color:var(--muted); font-size:14px; margin-bottom:8px; }
+  .operator { background:white; border:1px solid var(--border); border-radius:16px; padding:18px 20px; margin:24px 0 40px; font-size:14.5px; color:#374151; }
+  .operator b { color:var(--ink); }
+  h2 { font-size:17px; margin-top:38px; margin-bottom:10px; padding-top:8px; border-top:1px solid var(--border); }
+  p, li { color:#374151; font-size:15px; }
+  ul { padding-left:20px; }
+  li { margin-bottom:6px; }
+  a { color:var(--brand-dark); }
+  .placeholder { background:#FFF3CD; padding:1px 5px; border-radius:4px; }
+  footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--border); color:var(--muted); font-size:13.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <div class="brand">
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="45,18 78,30 100,158" fill="#14171C"/>
+        <polygon points="155,18 122,30 100,158" fill="#14171C"/>
+        <circle cx="100" cy="160" r="10" fill="#E14957"/>
+      </svg>
+      <span><b>V</b>Ride</span>
+    </div>
+    <div class="lang"><a href="privacy-policy-en.html">English version →</a></div>
+  </div>
+
+  <h1>Zásady ochrany osobních údajů</h1>
+  <p class="updated">Poslední aktualizace: 3. 9. 2026</p>
+
+  <div class="operator">
+    Provozovatel appky VRide: <b>David Fikar</b>, OSVČ, se sídlem Havlíčkův Brod,
+    IČO: <span class="placeholder">DOPLŇ AŽ BUDEŠ MÍT IČO</span>.<br>
+    Kontakt: <a href="mailto:dfikarhb@gmail.com">dfikarhb@gmail.com</a>
+  </div>
+
+  <p>Tyto zásady popisují, jaké údaje o Vás appka VRide zpracovává, proč, a jaká máte práva.</p>
+
+  <h2>Jaké údaje zpracováváme</h2>
+  <ul>
+    <li><strong>Přihlašovací údaje</strong> — e-mail a heslo (heslo v appce nikdy nevidíme, spravuje ho Supabase Auth v zašifrované podobě).</li>
+    <li><strong>Profilové údaje</strong> — jméno, popis, fotky, které nahrajete.</li>
+    <li><strong>Údaje o autech</strong> — značka, model, výkon, rychlost a další specifikace aut, které si přidáte.</li>
+    <li><strong>Poloha</strong> — přibližná poloha zařízení, pouze pokud appce povolíte přístup k poloze. Používá se výhradně k tomu, abychom Vám ukázali spolujezdce/auta v okolí. Polohu nesdílíme s nikým mimo appku.</li>
+    <li><strong>Obsah, který vytvoříte</strong> — zprávy v chatu, příspěvky a komentáře ve fóru.</li>
+    <li><strong>Nahlášení a blokace</strong> — pokud někoho nahlásíte nebo zablokujete, uložíme si to, abychom mohli chránit ostatní uživatele.</li>
+  </ul>
+
+  <h2>Proč údaje zpracováváme</h2>
+  <ul>
+    <li>Abychom appku mohli provozovat — přihlášení, zobrazení profilů, párování, chat, fórum, žebříček.</li>
+    <li>Abychom Vám mohli ukázat spolucestující/auta ve Vašem okolí (poloha).</li>
+    <li>Abychom mohli řešit nahlášení nevhodného chování a chránit ostatní uživatele.</li>
+    <li>Pro zpracování platby u prémiové verze (přes Apple App Store / Google Play — platební údaje appka nikdy nevidí ani neukládá).</li>
+  </ul>
+
+  <h2>S kým údaje sdílíme</h2>
+  <p>Údaje neprodáváme. Se třetími stranami je sdílíme jen v rozsahu nutném pro provoz appky:</p>
+  <ul>
+    <li><strong>Supabase</strong> — databáze, přihlašování a úložiště fotek appky.</li>
+    <li><strong>Apple / Google</strong> — při zpracování plateb v appce a distribuci appky.</li>
+  </ul>
+
+  <h2>Jak dlouho údaje uchováváme</h2>
+  <p>Dokud máte účet aktivní. Po smazání účtu appka (Nastavení → Smazat účet) nevratně smaže Váš profil, fotky, auta, shody i zprávy.</p>
+
+  <h2>Vaše práva</h2>
+  <ul>
+    <li>Vidět, jaké údaje o Vás appka má.</li>
+    <li>Nechat si údaje opravit.</li>
+    <li>Nechat si účet a všechna data smazat — přímo v appce v Nastavení, nebo e-mailem na <a href="mailto:dfikarhb@gmail.com">dfikarhb@gmail.com</a>.</li>
+    <li>Odvolat souhlas s přístupem k poloze kdykoliv v nastavení telefonu.</li>
+  </ul>
+
+  <h2>Uživatelé mladší 18 let</h2>
+  <p>VRide je určen pouze pro osoby starší 18 let.</p>
+
+  <h2>Kontakt</h2>
+  <p>Otázky ohledně zpracování osobních údajů posílejte na <a href="mailto:dfikarhb@gmail.com">dfikarhb@gmail.com</a>.</p>
+
+  <footer>© 2026 David Fikar — VRide</footer>
+</div>
+</body>
+</html>
