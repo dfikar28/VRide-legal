@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VRide — E-mail potvrzen</title>
+<style>
+  :root { --ink:#14171C; --brand-dark:#E14957; --muted:#6B7280; --bg:#FCFBFA; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 0; background: var(--bg); color: var(--ink);
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    text-align: center; padding: 24px;
+  }
+  .card { max-width: 360px; }
+  svg { width: 56px; height: 56px; margin-bottom: 20px; }
+  h1 { font-size: 22px; margin: 0 0 10px; }
+  p { color: #374151; font-size: 15px; line-height: 1.6; margin: 0 0 4px; }
+  .en { color: var(--muted); font-size: 14px; margin-top: 14px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="45,18 78,30 100,158" fill="#14171C"/>
+      <polygon points="155,18 122,30 100,158" fill="#14171C"/>
+      <circle cx="100" cy="160" r="10" fill="#E14957"/>
+    </svg>
+    <h1>E-mail potvrzen ✓</h1>
+    <p>Teď se můžeš vrátit do appky VRide a přihlásit se.</p>
+    <p class="en">Your email is confirmed. Go back to the VRide app and sign in.</p>
+  </div>
+</body>
+</html>
