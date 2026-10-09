@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://dfikar28.github.io/VRide-legal/</loc>
+    <lastmod>2026-10-09</lastmod>
+  </url>
+  <url>
+    <loc>https://dfikar28.github.io/VRide-legal/privacy-policy.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://dfikar28.github.io/VRide-legal/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dfikar28.github.io/VRide-legal/privacy-policy-en.html"/>
+  </url>
+  <url>
+    <loc>https://dfikar28.github.io/VRide-legal/privacy-policy-en.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://dfikar28.github.io/VRide-legal/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dfikar28.github.io/VRide-legal/privacy-policy-en.html"/>
+  </url>
+  <url>
+    <loc>https://dfikar28.github.io/VRide-legal/terms.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://dfikar28.github.io/VRide-legal/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dfikar28.github.io/VRide-legal/terms-en.html"/>
+  </url>
+  <url>
+    <loc>https://dfikar28.github.io/VRide-legal/terms-en.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://dfikar28.github.io/VRide-legal/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dfikar28.github.io/VRide-legal/terms-en.html"/>
+  </url>
+  <url>
+    <loc>https://dfikar28.github.io/VRide-legal/child-safety.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://dfikar28.github.io/VRide-legal/child-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dfikar28.github.io/VRide-legal/child-safety-en.html"/>
+  </url>
+  <url>
+    <loc>https://dfikar28.github.io/VRide-legal/child-safety-en.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://dfikar28.github.io/VRide-legal/child-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dfikar28.github.io/VRide-legal/child-safety-en.html"/>
+  </url>
+</urlset>
